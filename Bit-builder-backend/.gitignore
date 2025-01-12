@@ -11,7 +11,7 @@ envi
 .pyc
 .DS_Store
 __pycache__/ 
-staticfiles
+# staticfiles
 
 # python version : Python 3.8.5
 # django-admin --version 4.2.17

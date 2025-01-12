@@ -215,7 +215,7 @@ terminado==0.8.3
 testpath==0.4.4
 tornado==6.0.3
 traitlets==4.3.3
-typing-extensions==4.12.2
+typing_extensions==4.12.2
 upstox==2.0.0
 uritemplate==3.0.1
 urllib3==1.25.8
