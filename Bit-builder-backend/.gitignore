@@ -1,0 +1,19 @@
+# Ignore virtual environment
+venv/
+hackathon_backend_project/db.sqlite3
+.idea
+hackathon_backend_project/static
+.jpeg
+*media*
+*.py[cod]
+migrations
+envi
+.pyc
+.DS_Store
+__pycache__/ 
+
+# python version : Python 3.8.5
+# django-admin --version 4.2.17
+# to activate the virtual environment : source venv/bin/activate
+
+
