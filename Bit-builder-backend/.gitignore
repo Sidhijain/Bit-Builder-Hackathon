@@ -11,9 +11,38 @@ envi
 .pyc
 .DS_Store
 __pycache__/ 
+staticfiles
 
 # python version : Python 3.8.5
 # django-admin --version 4.2.17
 # to activate the virtual environment : source venv/bin/activate
+
+
+
+# {
+#     "version": 2,
+#     "builds": [
+#       {
+#         "src": "hackathon_backend_project/wsgi.py",
+#         "use": "@vercel/python",
+#         "config": {"maxLambdaSize":"15mb", "runtime":"python3.8"}
+#       },
+#       {
+#         "src": "build_files.sh",
+#         "use": "@vercel/static-build",
+#         "config": {"distDir": "staticfiles_build"}
+#       }
+#     ],
+#     "routes": [
+#       {
+#         "src": "/static/(.*)",
+#         "dest": "/static/$1"
+#       },
+#       {
+#         "src": "/(.*)",
+#         "dest": "hackathon_backend_project/wsgi.py"
+#       }
+#     ]
+#   }
 
 
